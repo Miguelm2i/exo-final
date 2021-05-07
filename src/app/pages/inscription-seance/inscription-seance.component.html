@@ -1,0 +1,30 @@
+<form [formGroup]="seance" (ngSubmit)="reserverSeance()">
+    <h2 class="mb-5">Résèrve ta séance !</h2>
+    <div class="form-group mb-3">
+        <select class="form-control" id="SelectUser" formControlName="eleve">
+        <option>Choisissez un éleve :</option>
+        <option *ngFor="let user of users">{{user.prenom}} {{user.nom}}</option>
+        </select>
+    </div>
+    <div class="form-group mb-3">
+        <select class="form-control" id="SelectMonitor" formControlName="moniteur">
+        <option>Choisissez un moniteur :</option>
+        <option *ngFor="let monitor of monitors">{{monitor.prenom}} {{monitor.nom}}</option>
+        </select>
+    </div>
+    <div class="form-group mb-3">
+        <label for="SelectCar">Voiture : </label>
+        <select class="form-control" id="SelectCar" formControlName="voiture">
+        <option>Renault</option>
+        <option>Peugeot</option>
+        <option>Tesla</option>
+        </select>
+    </div>
+    <div class="form-group mb-3">
+        <label class="me-4" for="Date">Date : </label>
+        <input type="date" id="Date" formControlName="date">
+    </div>
+
+    <button type="submit" class="btn btn-primary me-3">Submit</button>
+    <button type="reset" class="btn btn-danger">Reset</button>
+</form>

@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "nom": "Bravo",
+      "prenom": "Miguel",
+      "age": 22,
+      "id": 1
+    },
+    {
+      "nom": "Chirac",
+      "prenom": "Jacques",
+      "age": 99,
+      "id": 2
+    },
+    {
+      "nom": "Roger",
+      "prenom": "Jean",
+      "age": 84,
+      "id": 4
+    },
+    {
+      "nom": "Keller",
+      "prenom": "Art",
+      "age": 40,
+      "id": 5
+    }
+  ],
+  "monitors": [
+    {
+      "nom": "Timio",
+      "prenom": "Thomas",
+      "age": 12,
+      "experience": 5,
+      "id": 1
+    },
+    {
+      "nom": "Desaegher",
+      "prenom": "Thomas",
+      "age": 45,
+      "experience": 5,
+      "id": 2
+    },
+    {
+      "nom": "Raoux",
+      "prenom": "Kilian",
+      "age": 30,
+      "experience": 10,
+      "id": 3
+    }
+  ],
+  "seances": [
+    {
+      "eleve": "Miguel Bravo",
+      "moniteur": "Thomas Desaegher",
+      "voiture": "Tesla",
+      "date": "2021-05-05",
+      "id": 1
+    },
+    {
+      "eleve": "Art Keller",
+      "moniteur": "Thomas Timio",
+      "voiture": "Renault",
+      "date": "2021-05-03",
+      "id": 2
+    },
+    {
+      "eleve": "Jean Roger",
+      "moniteur": "Kilian Raoux",
+      "voiture": "Peugeot",
+      "date": "2021-05-18",
+      "id": 3
+    }
+  ]
+}

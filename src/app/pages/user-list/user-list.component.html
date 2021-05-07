@@ -1,0 +1,16 @@
+<div class="d-flex justify-content-around mt-5">
+    <div class="w-25">
+        <h3>Elèves</h3>
+        <div *ngFor="let user of users">
+            <app-user [user]="user"></app-user>
+        </div>
+    </div>
+    <div class="w-25">
+        <h3>Moniteurs</h3>
+        <div *ngFor="let monitor of monitors">
+            <app-monitor [monitor]="monitor"></app-monitor>
+        </div>
+    </div>
+</div>  
+
+
